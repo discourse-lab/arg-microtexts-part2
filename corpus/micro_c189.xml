@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c189">
+  <edu id="e1"><![CDATA[Video games do not necessarily have a bad impact on family life as long as they are played within a reasonable time limit and if all members can enjoy the games together.]]></edu>
+  <edu id="e2"><![CDATA[If video games consume a good part of the day and are not enjoyed by all then yes, they could have an impact in that there will be no actual social interaction of those in the family unit.]]></edu>
+  <edu id="e3"><![CDATA[If the entire family participates in the game then they are all enjoying themselves together and bonding. Thus there is no bad impact.]]></edu>
+  <edu id="e4"><![CDATA[It is just like people playing board games.]]></edu>
+  <edu id="e5"><![CDATA[Monopoly can take many hours to play and there is no bad impact on family life because all are playing together.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c9" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="reb"/>
+  <edge id="c2" src="a3" trg="c1" type="und"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a4" type="exa"/>
+</arggraph>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c188">
+  <edu id="e1"><![CDATA[Video games do have an a bad impact on life]]></edu>
+  <edu id="e2"><![CDATA[because it takes away from the time you should be spending with family and going outside.]]></edu>
+  <edu id="e3"><![CDATA[Ultimately, in the end however if used responsibly video games can be fun for a recreation event.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <edge id="c3" src="e1" trg="a1" type="seg"/>
+  <edge id="c4" src="e2" trg="a2" type="seg"/>
+  <edge id="c5" src="e3" trg="a3" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="reb"/>
+</arggraph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c119">
+  <edu id="e1"><![CDATA[I don't think that nuclear energy is safe.]]></edu>
+  <edu id="e2"><![CDATA[Just look at Fukushima, do you think that is safe?]]></edu>
+  <edu id="e3"><![CDATA[Humans are incapable because of greed to operate a reactor without cutting corners and incompetence.]]></edu>
+  <edu id="e4"><![CDATA[The pollution is long lasting, as in forever,]]></edu>
+  <edu id="e5"><![CDATA[and harmful to anything living.]]></edu>
+  <edu id="e6"><![CDATA[It is only safe if you listen to government propaganda.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c11" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="exa"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="c3" type="add"/>
+  <edge id="c5" src="a6" trg="a1" type="sup"/>
+</arggraph>

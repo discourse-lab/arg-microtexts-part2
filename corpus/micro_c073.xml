@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c073">
+  <edu id="e1"><![CDATA[One could argue that a supermarket charging for plastic bags would cause them to lose customers who might shop somewhere else that doesn't charge.]]></edu>
+  <edu id="e2"><![CDATA[There is also the environmental concern that plastic bags harm the environment.]]></edu>
+  <edu id="e3"><![CDATA[I believe that proper disposal of plastic bags solves the problem without creating a financial hardship for the retailer.]]></edu>
+  <edu id="e4"><![CDATA[A simple internet search reveals that there are ways to recycle plastic bags if your curbside program doesn't allow them.]]></edu>
+  <edu id="e5"><![CDATA[Public awareness of these programs should be the focus.]]></edu>
+  <edu id="e6"><![CDATA[Lets put the burden on the consumer, not the retailer.]]></edu>
+  <edu id="e7" implicit="true"><![CDATA[Supermarkets should not charge for plastic bags.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a7" type="seg"/>
+  <edge id="c12" src="e6" trg="a5" type="seg"/>
+  <edge id="c13" src="e7" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a6" type="sup"/>
+  <edge id="c2" src="a2" trg="a6" type="reb"/>
+  <edge id="c3" src="a3" trg="a2" type="reb"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a5" trg="a6" type="sup"/>
+  <edge id="c6" src="a7" trg="c4" type="add"/>
+</arggraph>

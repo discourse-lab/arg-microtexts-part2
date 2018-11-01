@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c006">
+  <edu id="e1"><![CDATA[Older people do not necessarily make better parents.]]></edu>
+  <edu id="e2"><![CDATA[While it might be tempting to think that older parents will exercise better judgment in childrearing,]]></edu>
+  <edu id="e3"><![CDATA[it is simply not the case that growing older means growing wiser.]]></edu>
+  <edu id="e4"><![CDATA[Younger parents will likely have levels of physical energy and stamina more closely aligned to their children's.]]></edu>
+  <edu id="e5"><![CDATA[Young mothers are more likely to bear healthy children,]]></edu>
+  <edu id="e6"><![CDATA[which is no small part of being a good parent.]]></edu>
+  <edu id="e7"><![CDATA[Finally, older parents will reach the age at which they need support from their children when their children are relatively young and not yet in the peak earning years.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c13" src="e7" trg="a7" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="reb"/>
+  <edge id="c2" src="a3" trg="a2" type="reb"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a1" type="sup"/>
+  <edge id="c5" src="a6" trg="c4" type="add"/>
+  <edge id="c6" src="a7" trg="a1" type="sup"/>
+</arggraph>

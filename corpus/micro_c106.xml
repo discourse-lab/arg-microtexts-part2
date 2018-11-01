@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c106">
+  <edu id="e1"><![CDATA[Composting can help save the environment if everyone would work together.]]></edu>
+  <edu id="e2"><![CDATA[While just one person composting will not make a significant impact,]]></edu>
+  <edu id="e3"><![CDATA[a large number of people could make a real difference.]]></edu>
+  <edu id="e4"><![CDATA[Instead of waste going to the landfill it could be composted and the nutrients returned to the environment.]]></edu>
+  <edu id="e5"><![CDATA[If a large amount of people would compost it would make a real difference.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c4" src="e1" trg="a1" type="seg"/>
+  <edge id="c5" src="e2" trg="a2" type="seg"/>
+  <edge id="c6" src="e3" trg="a3" type="seg"/>
+  <edge id="c7" src="e4" trg="a4" type="seg"/>
+  <edge id="c8" src="e5" trg="a3" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="c1" type="add"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+</arggraph>

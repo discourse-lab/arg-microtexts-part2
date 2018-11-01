@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c034">
+  <edu id="e1"><![CDATA[Fracking is unnecessary and unsafe.]]></edu>
+  <edu id="e2"><![CDATA[Fracking causing environmental problems such as polluting the water supply.]]></edu>
+  <edu id="e3"><![CDATA[Also, fracking has been shown to destabilize the ground and cause earthquakes in the Midwest.]]></edu>
+  <edu id="e4"><![CDATA[There are other sources of energy that are safer than using fracking.]]></edu>
+  <edu id="e5"><![CDATA[The chemicals used to get the gas out of the ground are not proven safe.]]></edu>
+  <edu id="e6"><![CDATA[Some may say that fracking is needed]]></edu>
+  <edu id="e7"><![CDATA[because we need more energy,]]></edu>
+  <edu id="e8"><![CDATA[but this argument ignored alternative energy sources]]></edu>
+  <edu id="e9"><![CDATA[and the questionable safety of fracking.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="opp"/>
+  <adu id="a7" type="opp"/>
+  <adu id="a8" type="pro"/>
+  <adu id="a9" type="pro"/>
+  <edge id="c9" src="e1" trg="a1" type="seg"/>
+  <edge id="c10" src="e2" trg="a2" type="seg"/>
+  <edge id="c11" src="e3" trg="a3" type="seg"/>
+  <edge id="c12" src="e4" trg="a4" type="seg"/>
+  <edge id="c13" src="e5" trg="a5" type="seg"/>
+  <edge id="c14" src="e6" trg="a6" type="seg"/>
+  <edge id="c15" src="e7" trg="a7" type="seg"/>
+  <edge id="c16" src="e8" trg="a8" type="seg"/>
+  <edge id="c17" src="e9" trg="a9" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a4" type="sup"/>
+  <edge id="c5" src="a6" trg="a1" type="reb"/>
+  <edge id="c6" src="a7" trg="a6" type="sup"/>
+  <edge id="c7" src="a8" trg="a6" type="reb"/>
+  <edge id="c8" src="a9" trg="a6" type="reb"/>
+</arggraph>

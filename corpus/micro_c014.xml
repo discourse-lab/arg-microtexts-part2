@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c014">
+  <edu id="e1"><![CDATA[While cutting down on the poaching incidents would be wonderful,]]></edu>
+  <edu id="e2"><![CDATA[removing the horns of wild rhinos is not the answer.]]></edu>
+  <edu id="e3"><![CDATA[Horns are the rhinos' natural protection mechanism,]]></edu>
+  <edu id="e4"><![CDATA[so if they were gone they would be very susceptible to death]]></edu>
+  <edu id="e5"><![CDATA[as they would not be able to protect themselves from their natural predators.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c5" src="e1" trg="a2" type="seg"/>
+  <edge id="c6" src="e2" trg="a1" type="seg"/>
+  <edge id="c7" src="e3" trg="a4" type="seg"/>
+  <edge id="c8" src="e4" trg="a3" type="seg"/>
+  <edge id="c9" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="reb"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a3" type="sup"/>
+  <edge id="c4" src="a5" trg="c3" type="add"/>
+</arggraph>

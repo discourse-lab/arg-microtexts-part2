@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c089">
+  <edu id="e1"><![CDATA[Video games are much more than just having fun and goofing off.]]></edu>
+  <edu id="e2"><![CDATA[Many games can teach people several skills without even realizing it, such as planning ahead, patience and persistence, efficiency, and more.]]></edu>
+  <edu id="e3"><![CDATA[If games were actually tailored to the learning aspect, they could still be seriously fun (and have super cool graphics), but require a skill - like math or grammar - to be learned, to win the game.]]></edu>
+  <edu id="e4"><![CDATA[This ensures something good is being gained from video games in school, and technology is well-utilized.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c4" src="e1" trg="a4" type="seg"/>
+  <edge id="c5" src="e2" trg="a3" type="seg"/>
+  <edge id="c6" src="e3" trg="a1" type="seg"/>
+  <edge id="c7" src="e4" trg="a2" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a4" type="exa"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+</arggraph>

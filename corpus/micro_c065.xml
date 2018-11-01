@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c065">
+  <edu id="e1"><![CDATA[Social media has hurt the lives of teenagers in several ways.]]></edu>
+  <edu id="e2"><![CDATA[First it has seemingly kept children from many real life interactions and confined them to the front of a computer screen or cell phone.]]></edu>
+  <edu id="e3"><![CDATA[Also it has redefined the term 'friend' and therefor friendship.]]></edu>
+  <edu id="e4"><![CDATA[More and more people are concerned with how many 'likes' they receive while pulling away from making true and lasting friendships and building life experiences.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c4" src="e1" trg="a1" type="seg"/>
+  <edge id="c5" src="e2" trg="a2" type="seg"/>
+  <edge id="c6" src="e3" trg="a3" type="seg"/>
+  <edge id="c7" src="e4" trg="a4" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a3" type="sup"/>
+</arggraph>

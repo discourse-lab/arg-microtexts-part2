@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c104">
+  <edu id="e1"><![CDATA[Composting helps the natural environment]]></edu>
+  <edu id="e2"><![CDATA[and aids in organic farming.]]></edu>
+  <edu id="e3"><![CDATA[Composting helps the environment by reducing the amount of waste households produce and turning it into natural compost.]]></edu>
+  <edu id="e4"><![CDATA[Composting helps the environment.]]></edu>
+  <edu id="e5"><![CDATA[One drawback of composting is that not all material is beneficial to the environment.]]></edu>
+  <edu id="e6"><![CDATA[Some materials when composted damage plant life.]]></edu>
+  <edu id="e7"><![CDATA[However much household waste is encouraged to be composted.]]></edu>
+  <edu id="e8"><![CDATA[Composting is a good way to reduce your household waste]]></edu>
+  <edu id="e9"><![CDATA[and be environmentally friendly.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a5" type="seg"/>
+  <edge id="c8" src="e3" trg="a6" type="seg"/>
+  <edge id="c9" src="e4" trg="a1" type="seg"/>
+  <edge id="c10" src="e5" trg="a2" type="seg"/>
+  <edge id="c11" src="e6" trg="a3" type="seg"/>
+  <edge id="c12" src="e7" trg="a4" type="seg"/>
+  <edge id="c13" src="e8" trg="a6" type="seg"/>
+  <edge id="c14" src="e9" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="reb"/>
+  <edge id="c2" src="a3" trg="a2" type="sup"/>
+  <edge id="c3" src="a4" trg="c1" type="und"/>
+  <edge id="c4" src="a5" trg="a1" type="sup"/>
+  <edge id="c5" src="a6" trg="a1" type="sup"/>
+</arggraph>

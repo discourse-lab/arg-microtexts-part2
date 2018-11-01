@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c161">
+  <edu id="e1"><![CDATA[I think that, in most circumstances, teenagers that get pregnant should keep their children.]]></edu>
+  <edu id="e2"><![CDATA[It will generally be better for both parties.]]></edu>
+  <edu id="e3"><![CDATA[Having a child will cause the teenager to have to grow up.]]></edu>
+  <edu id="e4"><![CDATA[The child will be better off staying with its biological parents.]]></edu>
+  <edu id="e5"><![CDATA[If the child and parent become separated, the entire bloodline and family becomes fractured.]]></edu>
+  <edu id="e6"><![CDATA[It is not natural or beneficial for this to happen.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c11" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a2" type="sup"/>
+  <edge id="c3" src="a4" trg="c2" type="add"/>
+  <edge id="c4" src="a5" trg="a4" type="sup"/>
+  <edge id="c5" src="a6" trg="a5" type="sup"/>
+</arggraph>

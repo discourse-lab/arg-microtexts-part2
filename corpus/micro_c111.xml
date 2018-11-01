@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c111">
+  <edu id="e1"><![CDATA[Smart watches have many benefits,]]></edu>
+  <edu id="e2"><![CDATA[but they will never be able to do everything a smart phone can do.]]></edu>
+  <edu id="e3"><![CDATA[Specifically read and watch videos on the watch.]]></edu>
+  <edu id="e4"><![CDATA[I use my phone to read library books and watch shows because the screen is much bigger than a smart watch.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c4" src="e1" trg="a2" type="seg"/>
+  <edge id="c5" src="e2" trg="a1" type="seg"/>
+  <edge id="c6" src="e3" trg="a3" type="seg"/>
+  <edge id="c7" src="e4" trg="a4" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="reb"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a3" type="exa"/>
+</arggraph>

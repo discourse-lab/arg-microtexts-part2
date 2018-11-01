@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c093">
+  <edu id="e1"><![CDATA[There are many benefits to using LED lights.]]></edu>
+  <edu id="e2"><![CDATA[The major one being that they have a longer life than traditional light bulbs, thus making an impact on the environment.]]></edu>
+  <edu id="e3"><![CDATA[They also use less energy to run, conserving energy and cutting costs to consumers.]]></edu>
+  <edu id="e4"><![CDATA[The only drawback is that buying them is more expensive.]]></edu>
+  <edu id="e5"><![CDATA[This initial investment, though, far outweighs the negative effects]]></edu>
+  <edu id="e6"><![CDATA[when you think about the savings you will incur in the future in energy bills]]></edu>
+  <edu id="e7"><![CDATA[and not having replace light bulbs as frequently.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c13" src="e7" trg="a7" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="reb"/>
+  <edge id="c4" src="a5" trg="c3" type="und"/>
+  <edge id="c5" src="a6" trg="a5" type="sup"/>
+  <edge id="c6" src="a7" trg="a5" type="sup"/>
+</arggraph>

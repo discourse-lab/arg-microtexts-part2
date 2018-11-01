@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c182">
+  <edu id="e1"><![CDATA[Playing sports together allows the family to connect as a unit.]]></edu>
+  <edu id="e2"><![CDATA[It encourages the family to undertake a healthier lifestyle.]]></edu>
+  <edu id="e3"><![CDATA[It also allows them to focus on one another instead of independent items.]]></edu>
+  <edu id="e4"><![CDATA[It fosters camaraderie with the family via shared interests and events.]]></edu>
+  <edu id="e5"><![CDATA[It can also demonstrate the benefits of working together.]]></edu>
+  <edu id="e6" implicit="true"><![CDATA[Doing sports together is a good thing for families.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c6" src="e1" trg="a2" type="seg"/>
+  <edge id="c7" src="e2" trg="a3" type="seg"/>
+  <edge id="c8" src="e3" trg="a4" type="seg"/>
+  <edge id="c9" src="e4" trg="a5" type="seg"/>
+  <edge id="c10" src="e5" trg="a6" type="seg"/>
+  <edge id="c11" src="e6" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a1" type="sup"/>
+  <edge id="c5" src="a6" trg="a1" type="sup"/>
+</arggraph>

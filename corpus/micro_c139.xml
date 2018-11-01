@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c139">
+  <edu id="e1"><![CDATA[I do not believe that government regulation would make a difference.]]></edu>
+  <edu id="e2"><![CDATA[Funding an industry does not guarantee success.]]></edu>
+  <edu id="e3"><![CDATA[If the industry is self sustainable and profitable, they would eventually be able to stand on their own.]]></edu>
+  <edu id="e4"><![CDATA[If not, than the government is putting money into keeping something alive that is not a viable option otherwise.]]></edu>
+  <edu id="e5"><![CDATA[In conclusion, government aid would not be a factor in the wind industry spreading faster.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c4" src="e1" trg="a4" type="seg"/>
+  <edge id="c5" src="e2" trg="a1" type="seg"/>
+  <edge id="c6" src="e3" trg="a2" type="seg"/>
+  <edge id="c7" src="e4" trg="a3" type="seg"/>
+  <edge id="c8" src="e5" trg="a4" type="seg"/>
+  <edge id="c1" src="a1" trg="a4" type="sup"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="c2" type="add"/>
+</arggraph>

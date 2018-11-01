@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c048">
+  <edu id="e1"><![CDATA[Car drivers should be prohibited from using cell phones while driving]]></edu>
+  <edu id="e2"><![CDATA[because their full attention should be on the road and any potential hazards.]]></edu>
+  <edu id="e3"><![CDATA[If people talk are holding onto a phone while steering, this limits their ability to control their vehicle.]]></edu>
+  <edu id="e4"><![CDATA[A vehicle can be a lethal weapon if used carelessly.]]></edu>
+  <edu id="e5"><![CDATA[Some may say that just talking in a car while driving is a distraction, even without holding a cell phone;]]></edu>
+  <edu id="e6"><![CDATA[however, anything that helps keep a driver's attention on driving, is a positive.]]></edu>
+  <edu id="e7"><![CDATA[Not allowing driver to talk on their cell phones will prevent many accidents and tragedies.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a3" type="seg"/>
+  <edge id="c9" src="e3" trg="a4" type="seg"/>
+  <edge id="c10" src="e4" trg="a2" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c13" src="e7" trg="a7" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a2" type="sup"/>
+  <edge id="c3" src="a4" trg="c2" type="add"/>
+  <edge id="c4" src="a5" trg="a1" type="reb"/>
+  <edge id="c5" src="a6" trg="c4" type="und"/>
+  <edge id="c6" src="a7" trg="a1" type="sup"/>
+</arggraph>

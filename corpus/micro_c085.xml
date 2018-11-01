@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c085">
+  <edu id="e1"><![CDATA[The world is fast changing and it is important for schools to keep pace.]]></edu>
+  <edu id="e2"><![CDATA[The average student is exposed to video games from a young age and appealing to this may help them learn.]]></edu>
+  <edu id="e3"><![CDATA[It could be cause for concern that they have too much exposure to "screens," and video games have no place in the classroom.]]></edu>
+  <edu id="e4"><![CDATA[Despite this, learning should evolve in creative ways, such as using video games as a tool.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c4" src="e1" trg="a3" type="seg"/>
+  <edge id="c5" src="e2" trg="a4" type="seg"/>
+  <edge id="c6" src="e3" trg="a2" type="seg"/>
+  <edge id="c7" src="e4" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="reb"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+</arggraph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c160">
+  <edu id="e1"><![CDATA[No, teenage marriages are not a good idea.]]></edu>
+  <edu id="e2"><![CDATA[People change personality-wise, goal-wise, and in many other ways after their teen years.]]></edu>
+  <edu id="e3"><![CDATA[Teens are not yet ready for all the responsibility that comes with marriage.]]></edu>
+  <edu id="e4"><![CDATA[They need to focus on their personal goals and getting their lives in order before sharing their life with anyone else.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c4" src="e1" trg="a1" type="seg"/>
+  <edge id="c5" src="e2" trg="a2" type="seg"/>
+  <edge id="c6" src="e3" trg="a3" type="seg"/>
+  <edge id="c7" src="e4" trg="a4" type="seg"/>
+  <edge id="c1" src="a2" trg="a3" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a3" type="sup"/>
+</arggraph>

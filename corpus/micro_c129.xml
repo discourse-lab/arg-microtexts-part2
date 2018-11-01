@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c129">
+  <edu id="e1"><![CDATA[Yes there is a chance to handle nuclear waste responsibly.]]></edu>
+  <edu id="e2"><![CDATA[By storing the waste in carefully isolated facilities the danger can be minimized.]]></edu>
+  <edu id="e3"><![CDATA[Investing in reactors that can run on nuclear waste is also an option.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <edge id="c3" src="e1" trg="a1" type="seg"/>
+  <edge id="c4" src="e2" trg="a2" type="seg"/>
+  <edge id="c5" src="e3" trg="a3" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+</arggraph>

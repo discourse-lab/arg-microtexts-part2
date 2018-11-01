@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c008">
+  <edu id="e1"><![CDATA[I think it's possible for older people to be better parents.]]></edu>
+  <edu id="e2"><![CDATA[They have had time to mature more and learn about themselves.]]></edu>
+  <edu id="e3"><![CDATA[They're more likely to have steady careers going]]></edu>
+  <edu id="e4"><![CDATA[so they can provide for a child.]]></edu>
+  <edu id="e5"><![CDATA[Some might say being too old risks the child being disabled,]]></edu>
+  <edu id="e6"><![CDATA[but insisting all babies be perfect is demanding the impossible]]></edu>
+  <edu id="e7"><![CDATA[as well as demeaning to people already living who are disabled.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c13" src="e7" trg="a7" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a4" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a1" type="reb"/>
+  <edge id="c5" src="a6" trg="c4" type="und"/>
+  <edge id="c6" src="a7" trg="c5" type="add"/>
+</arggraph>

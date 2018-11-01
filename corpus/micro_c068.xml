@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c068">
+  <edu id="e1"><![CDATA[I think that supermarkets should charge a small amount for plastic bags.]]></edu>
+  <edu id="e2"><![CDATA[This charge could help people remember and consider the idea of using 'free' reusable bags.]]></edu>
+  <edu id="e3"><![CDATA[But also, the fee for the plastic bags could go towards the cost of recycling the bags.]]></edu>
+  <edu id="e4"><![CDATA[They could add a program for collecting clean used bags.]]></edu>
+  <edu id="e5"><![CDATA[But if the fee was small, it wouldn't be too bad for those who forgot their reusable bags, or have their reasons for using plastic each time.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a5" type="seg"/>
+  <edge id="c9" src="e5" trg="a4" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a3" type="sup"/>
+</arggraph>

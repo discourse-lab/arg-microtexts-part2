@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c103">
+  <edu id="e1"><![CDATA[I don't believe that paper and books will ever become obsolete.]]></edu>
+  <edu id="e2"><![CDATA[People enjoy having something tangible to read and/or write on.]]></edu>
+  <edu id="e3"><![CDATA[Even though people may say that reading ebooks will be the future,]]></edu>
+  <edu id="e4"><![CDATA[there have been studies that show reading on computer screens causes eye strain.]]></edu>
+  <edu id="e5"><![CDATA[There is also the security of knowing that paper and books can not be accidentally or purposefully erased by something such as user error or a virus.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c9" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="reb"/>
+  <edge id="c3" src="a4" trg="a3" type="reb"/>
+  <edge id="c4" src="a5" trg="a1" type="sup"/>
+</arggraph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c011">
+  <edu id="e1"><![CDATA[Poaching is a criminal act that has ebbed and flowed over the course of time as consumer demand has fluctuated. Many of these criminal acts come out of countries where governments consist of officials easily corrupted through monetary payments or status changes.]]></edu>
+  <edu id="e2"><![CDATA[Without strong policing efforts, the likelihood of a successful deterrent to the mass killings of wild rhinos and other animals valued for their parts is unlikely.]]></edu>
+  <edu id="e3"><![CDATA[The costs involved with the solution of removing the horns to prevent future poaching is throwing money away]]></edu>
+  <edu id="e4"><![CDATA[to sidestep the real issues which are lax to nonexistent policing, non-consistent prosecution and lenient sentencing.]]></edu>
+  <edu id="e5"><![CDATA[It's the criminals who commit these violent acts against wildlife who need to be 'removed' from society itself.]]></edu>
+  <edu id="e6" implicit="true"><![CDATA[No,the rhino's horns should not be removed to protect them from being poached.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a6" type="seg"/>
+  <edge id="c11" src="e6" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a6" type="sup"/>
+  <edge id="c2" src="a2" trg="c1" type="add"/>
+  <edge id="c3" src="a3" trg="a6" type="sup"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a6" trg="a5" type="sup"/>
+</arggraph>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c087">
+  <edu id="e1"><![CDATA[Schools should not use video games as a teaching tool.]]></edu>
+  <edu id="e2"><![CDATA[Videogames hurt the eyes of children]]></edu>
+  <edu id="e3"><![CDATA[and can be violent.]]></edu>
+  <edu id="e4"><![CDATA[They will view school time as entertainment and not as serious.]]></edu>
+  <edu id="e5"><![CDATA[They will not learn as much]]></edu>
+  <edu id="e6"><![CDATA[and will not succeed because of these video games.]]></edu>
+  <edu id="e7"><![CDATA[Some might say that video games will get the attention of these students,]]></edu>
+  <edu id="e8"><![CDATA[but I think that this opinion is a myth and is not based in fact.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="opp"/>
+  <adu id="a8" type="pro"/>
+  <edge id="c8" src="e1" trg="a1" type="seg"/>
+  <edge id="c9" src="e2" trg="a2" type="seg"/>
+  <edge id="c10" src="e3" trg="a3" type="seg"/>
+  <edge id="c11" src="e4" trg="a4" type="seg"/>
+  <edge id="c12" src="e5" trg="a5" type="seg"/>
+  <edge id="c13" src="e6" trg="a6" type="seg"/>
+  <edge id="c14" src="e7" trg="a7" type="seg"/>
+  <edge id="c15" src="e8" trg="a8" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a5" type="sup"/>
+  <edge id="c4" src="a5" trg="a6" type="sup"/>
+  <edge id="c5" src="a6" trg="a1" type="sup"/>
+  <edge id="c6" src="a7" trg="a1" type="reb"/>
+  <edge id="c7" src="a8" trg="a7" type="reb"/>
+</arggraph>

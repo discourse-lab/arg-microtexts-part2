@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c166">
+  <edu id="e1"><![CDATA[Teenagers that get pregnant are not ready to enter into such a commitment.]]></edu>
+  <edu id="e2"><![CDATA[They got to where they are now by being in the moment and not thinking about their future.]]></edu>
+  <edu id="e3"><![CDATA[Their ability to raise a child is questionable,]]></edu>
+  <edu id="e4"><![CDATA[and we cannot forget that they themselves are in many ways still children.]]></edu>
+  <edu id="e5"><![CDATA[While they can seek help from family for this,]]></edu>
+  <edu id="e6"><![CDATA[not everyone will have the same level of support.]]></edu>
+  <edu id="e7"><![CDATA[The teenager will have a much more difficult time getting ahead in life, and this will disproportionately affect the lower classes more than the upper.]]></edu>
+  <edu id="e8"><![CDATA[It is an unfair thing to do to someone.]]></edu>
+  <edu id="e9" implicit="true"><![CDATA[Teenagers that get pregnant should not keep their children.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <adu id="a8" type="opp"/>
+  <adu id="a9" type="pro"/>
+  <edge id="c9" src="e1" trg="a2" type="seg"/>
+  <edge id="c10" src="e2" trg="a3" type="seg"/>
+  <edge id="c11" src="e3" trg="a4" type="seg"/>
+  <edge id="c12" src="e4" trg="a5" type="seg"/>
+  <edge id="c13" src="e5" trg="a8" type="seg"/>
+  <edge id="c14" src="e6" trg="a9" type="seg"/>
+  <edge id="c15" src="e7" trg="a6" type="seg"/>
+  <edge id="c16" src="e8" trg="a7" type="seg"/>
+  <edge id="c17" src="e9" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a2" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a1" type="sup"/>
+  <edge id="c5" src="a6" trg="a1" type="sup"/>
+  <edge id="c6" src="a7" trg="c5" type="add"/>
+  <edge id="c7" src="a8" trg="a1" type="reb"/>
+  <edge id="c8" src="a9" trg="a8" type="reb"/>
+</arggraph>

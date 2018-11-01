@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c175">
+  <edu id="e1"><![CDATA[Helicopter parents, because they are overly protective,]]></edu>
+  <edu id="e2"><![CDATA[tend not to allow their children to develop the ability to effectively cope with adversity on their own.]]></edu>
+  <edu id="e3"><![CDATA[Further, such parents' constant hovering prevents their children from really experiencing independence or fully appreciating the benefits (and perils) of risk taking.]]></edu>
+  <edu id="e4"><![CDATA[There are, of course, real safety concerns from which children need to be protected.]]></edu>
+  <edu id="e5"><![CDATA[However, excessive parental caution is likely to result in children who grow into adults less capable than otherwise in dealing with a complex, sometimes unfriendly, world.]]></edu>
+  <edu id="e6" implicit="true"><![CDATA[Helicopter parents are bad for their children.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c6" src="e1" trg="a2" type="seg"/>
+  <edge id="c7" src="e2" trg="a3" type="seg"/>
+  <edge id="c8" src="e3" trg="a4" type="seg"/>
+  <edge id="c9" src="e4" trg="a5" type="seg"/>
+  <edge id="c10" src="e5" trg="a6" type="seg"/>
+  <edge id="c11" src="e6" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a3" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="c3" type="und"/>
+  <edge id="c5" src="a6" trg="c4" type="und"/>
+</arggraph>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c049">
+  <edu id="e1"><![CDATA[Driving cars while talking on the telephone has been proven again and again to lead to increased numbers of accident.]]></edu>
+  <edu id="e2"><![CDATA[You cannot focus properly on the road if you are distracted by the phone.]]></edu>
+  <edu id="e3" implicit="true"><![CDATA[Yes, car drivers should be strictly prohibited from using cell phones.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <edge id="c3" src="e1" trg="a2" type="seg"/>
+  <edge id="c4" src="e2" trg="a3" type="seg"/>
+  <edge id="c5" src="e3" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a2" type="sup"/>
+</arggraph>

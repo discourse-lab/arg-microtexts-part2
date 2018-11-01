@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c043">
+  <edu id="e1"><![CDATA[It is undeniable that the space and resources of this planet are scarce.]]></edu>
+  <edu id="e2"><![CDATA[One way to cut down on waste is by recycling.]]></edu>
+  <edu id="e3"><![CDATA[Recycling will help save land that would have to be turned into a landfill.]]></edu>
+  <edu id="e4" implicit="true"><![CDATA[Yes, recycling really makes a difference.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c4" src="e1" trg="a3" type="seg"/>
+  <edge id="c5" src="e2" trg="a4" type="seg"/>
+  <edge id="c6" src="e3" trg="a2" type="seg"/>
+  <edge id="c7" src="e4" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a2" type="sup"/>
+  <edge id="c3" src="a4" trg="c2" type="add"/>
+</arggraph>

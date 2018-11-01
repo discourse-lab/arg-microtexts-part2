@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c141">
+  <edu id="e1"><![CDATA[Government can pass regulations to make wind energy more inviting to investors and businesses,]]></edu>
+  <edu id="e2"><![CDATA[but only that private investment will really speed up the spread of wind energy.]]></edu>
+  <edu id="e3"><![CDATA[Energy companies in the U.S. are privately owned and make their choices based on what is economically feasible.]]></edu>
+  <edu id="e4"><![CDATA[Wind energy is only viable in places with the necessary wind on a steady basis.]]></edu>
+  <edu id="e5"><![CDATA[Favorable tax and investment policies by government may enhance opportunities,]]></edu>
+  <edu id="e6"><![CDATA[but the government cannot force investment and cannot bring wind to places that lack it in the air speed and quality needed.]]></edu>
+  <edu id="e7" implicit="true"><![CDATA[Government regulations will not necessarily speed up the spread of wind energy.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="opp"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c7" src="e1" trg="a2" type="seg"/>
+  <edge id="c8" src="e2" trg="a3" type="seg"/>
+  <edge id="c9" src="e3" trg="a4" type="seg"/>
+  <edge id="c10" src="e4" trg="a5" type="seg"/>
+  <edge id="c11" src="e5" trg="a6" type="seg"/>
+  <edge id="c12" src="e6" trg="a7" type="seg"/>
+  <edge id="c13" src="e7" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="reb"/>
+  <edge id="c2" src="a3" trg="c1" type="und"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="c3" type="add"/>
+  <edge id="c5" src="a6" trg="a1" type="reb"/>
+  <edge id="c6" src="a7" trg="c5" type="und"/>
+</arggraph>

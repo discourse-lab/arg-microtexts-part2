@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c054">
+  <edu id="e1"><![CDATA[I live in Michigan, where we have a deposit.]]></edu>
+  <edu id="e2"><![CDATA[I regularly see people bringing huge amounts of bottles and cans to grocery stores to recycle them.]]></edu>
+  <edu id="e3"><![CDATA[While I do not have exact statistics on the topic,]]></edu>
+  <edu id="e4"><![CDATA[this indicates to me that deposits promote recycling and should therefore be adopted.]]></edu>
+  <edu id="e5"><![CDATA[This has also become a source of income for homeless people.]]></edu>
+  <edu id="e6"><![CDATA[I see homeless people picking up littered cans so they can later recycle them for the deposit, which seems good to me.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c5" src="e2" trg="a1" type="seg"/>
+  <edge id="c6" src="e3" trg="a3" type="seg"/>
+  <edge id="c7" src="e4" trg="a2" type="seg"/>
+  <edge id="c8" src="e5" trg="a4" type="seg"/>
+  <edge id="c9" src="e6" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a2" type="sup"/>
+  <edge id="c2" src="a3" trg="a2" type="reb"/>
+  <edge id="c3" src="a4" trg="a2" type="sup"/>
+  <edge id="c4" src="a5" trg="a4" type="sup"/>
+</arggraph>

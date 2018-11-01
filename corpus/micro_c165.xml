@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c165">
+  <edu id="e1"><![CDATA[Teenagers have the same parental rights as any biological parent.]]></edu>
+  <edu id="e2"><![CDATA[There should not be an assumption that a teenager is automatically an unfit parent.]]></edu>
+  <edu id="e3"><![CDATA[Unless the state can prove that a teenager is unfit, abusive, or neglectful to the unborn or born child]]></edu>
+  <edu id="e4"><![CDATA[then teenagers have the right to keep their children just as any parent would.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c4" src="e1" trg="a4" type="seg"/>
+  <edge id="c5" src="e2" trg="a3" type="seg"/>
+  <edge id="c6" src="e3" trg="a2" type="seg"/>
+  <edge id="c7" src="e4" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="reb"/>
+  <edge id="c2" src="a3" trg="c1" type="und"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+</arggraph>

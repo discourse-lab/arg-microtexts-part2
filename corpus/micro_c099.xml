@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c099">
+  <edu id="e1"><![CDATA[Paper and books will never become completely obsolete.]]></edu>
+  <edu id="e2"><![CDATA[While lots of people have really enjoyed all the technology around being able to read electronically,]]></edu>
+  <edu id="e3"><![CDATA[lots of people will always prefer books.]]></edu>
+  <edu id="e4"><![CDATA[Most of these people are probably older so as the older generation dies, paper books will become more obsolete.]]></edu>
+  <edu id="e5"><![CDATA[However, due to funding I don't think that schools and colleges will ever be able to go fully electronic.]]></edu>
+  <edu id="e6"><![CDATA[So there will always be paper books out there.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a5" type="seg"/>
+  <edge id="c9" src="e5" trg="a4" type="seg"/>
+  <edge id="c10" src="e6" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="reb"/>
+  <edge id="c2" src="a3" trg="c1" type="und"/>
+  <edge id="c3" src="a4" trg="c4" type="und"/>
+  <edge id="c4" src="a5" trg="c2" type="und"/>
+</arggraph>

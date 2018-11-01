@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c061">
+  <edu id="e1"><![CDATA[Social media has been largely detrimental to teenagers]]></edu>
+  <edu id="e2"><![CDATA[specifically because they are not yet developed enough to handle it.]]></edu>
+  <edu id="e3"><![CDATA[Social media has eliminated many barriers and limited privacy in such a way that has made teens very vulnerable.]]></edu>
+  <edu id="e4"><![CDATA[Social bullying is a rampant issue,]]></edu>
+  <edu id="e5"><![CDATA[and teens are often unable to place reasonable limits on their social media time.]]></edu>
+  <edu id="e6"><![CDATA[It is true that social media is very beneficial for staying in contact with people far away,]]></edu>
+  <edu id="e7"><![CDATA[but because there are no limits teens often wind up spending more time in that virtual world than in the real world.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="opp"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c13" src="e7" trg="a7" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a2" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a1" type="sup"/>
+  <edge id="c5" src="a6" trg="a1" type="reb"/>
+  <edge id="c6" src="a7" trg="c5" type="und"/>
+</arggraph>

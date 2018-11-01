@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c018">
+  <edu id="e1"><![CDATA[We live in the age of technology]]></edu>
+  <edu id="e2"><![CDATA[but the constant use of cell phones is definitely not bringing families closer together.]]></edu>
+  <edu id="e3"><![CDATA[Family time used to be about spending quality time and actually talking to each other.]]></edu>
+  <edu id="e4"><![CDATA[Now, it's time that is largely spent staring at screens while occupying the same space.]]></edu>
+  <edu id="e5"><![CDATA[This is driving a wedge between families]]></edu>
+  <edu id="e6"><![CDATA[and it needs to be rectified.]]></edu>
+  <edu id="e7"><![CDATA[Family time needs to be a time where cell phones are put away and interaction with each other has everyone's full attention.]]></edu>
+  <edu id="e8"><![CDATA[If this doesn't change we could find that families become even more dysfunctional as a unit.]]></edu>
+  <edu id="e9"><![CDATA[Though, there has been no scientific research to date that can confirm this outcome.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <adu id="a8" type="pro"/>
+  <adu id="a9" type="opp"/>
+  <edge id="c9" src="e1" trg="a2" type="seg"/>
+  <edge id="c10" src="e2" trg="a1" type="seg"/>
+  <edge id="c11" src="e3" trg="a3" type="seg"/>
+  <edge id="c12" src="e4" trg="a4" type="seg"/>
+  <edge id="c13" src="e5" trg="a5" type="seg"/>
+  <edge id="c14" src="e6" trg="a6" type="seg"/>
+  <edge id="c15" src="e7" trg="a7" type="seg"/>
+  <edge id="c16" src="e8" trg="a8" type="seg"/>
+  <edge id="c17" src="e9" trg="a9" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="reb"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="c2" type="add"/>
+  <edge id="c4" src="a5" trg="a1" type="sup"/>
+  <edge id="c5" src="a6" trg="c4" type="add"/>
+  <edge id="c6" src="a7" trg="a1" type="sup"/>
+  <edge id="c7" src="a8" trg="a6" type="sup"/>
+  <edge id="c8" src="a9" trg="a8" type="reb"/>
+</arggraph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c163">
+  <edu id="e1"><![CDATA[Teens are inexperienced with life]]></edu>
+  <edu id="e2"><![CDATA[and may have trouble raising a child.]]></edu>
+  <edu id="e3"><![CDATA[However, it is a basic human right that people can have children and raise them.]]></edu>
+  <edu id="e4"><![CDATA[Only severely unsuitable parents should be made to give up their kids.]]></edu>
+  <edu id="e5"><![CDATA[It is a responsibility of government to help children in difficult circumstances.]]></edu>
+  <edu id="e6" implicit="true"><![CDATA[Teenagers that get pregnant should keep their children.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c6" src="e1" trg="a2" type="seg"/>
+  <edge id="c7" src="e2" trg="a3" type="seg"/>
+  <edge id="c8" src="e3" trg="a1" type="seg"/>
+  <edge id="c9" src="e4" trg="a5" type="seg"/>
+  <edge id="c10" src="e5" trg="a6" type="seg"/>
+  <edge id="c11" src="e6" trg="a4" type="seg"/>
+  <edge id="c1" src="a1" trg="c3" type="und"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c3" src="a3" trg="a4" type="reb"/>
+  <edge id="c4" src="a5" trg="a4" type="sup"/>
+  <edge id="c5" src="a6" trg="a4" type="sup"/>
+</arggraph>

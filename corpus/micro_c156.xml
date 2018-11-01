@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c156">
+  <edu id="e1"><![CDATA[Teenage marriages could be a good idea if both people truly love one another.]]></edu>
+  <edu id="e2"><![CDATA[People should have the right to marry whomever they choose to, whenever they choose to.]]></edu>
+  <edu id="e3"><![CDATA[However, this is a very young age, and a teenager's decision making is not up to par with an adults.]]></edu>
+  <edu id="e4"><![CDATA[Teenage marriage would most likely make a already high divorce rate, even higher.]]></edu>
+  <edu id="e5"><![CDATA[If teenagers were allowed to marry one another, you would probably see many more kids getting married before even graduating high school!]]></edu>
+  <edu id="e6"><![CDATA[Teenage marriage would most certainty cause a shake up in our society today.]]></edu>
+  <edu id="e7" implicit="true"><![CDATA[Teenage marriages is not a good idea.]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c13" src="e7" trg="a7" type="seg"/>
+  <edge id="c1" src="a1" trg="a7" type="reb"/>
+  <edge id="c2" src="a2" trg="a1" type="sup"/>
+  <edge id="c3" src="a3" trg="c2" type="und"/>
+  <edge id="c4" src="a4" trg="a7" type="sup"/>
+  <edge id="c5" src="a5" trg="a6" type="sup"/>
+  <edge id="c6" src="a6" trg="a7" type="sup"/>
+</arggraph>

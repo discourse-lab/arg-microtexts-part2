@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c069">
+  <edu id="e1"><![CDATA[Definitely supermarkets should charge for plastic bags.]]></edu>
+  <edu id="e2"><![CDATA[Its very important that we stop using plastic.]]></edu>
+  <edu id="e3"><![CDATA[Its very harmful and spoils the Nature and anything in its contact.]]></edu>
+  <edu id="e4"><![CDATA[Plastic should be banned in every form with a notice to the whole Nation.]]></edu>
+  <edu id="e5"><![CDATA[Plastic should not be used in any way.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <edge id="c3" src="e1" trg="a1" type="seg"/>
+  <edge id="c4" src="e2" trg="a2" type="seg"/>
+  <edge id="c5" src="e3" trg="a3" type="seg"/>
+  <edge id="c6" src="e4" trg="a2" type="seg"/>
+  <edge id="c7" src="e5" trg="a2" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a2" type="sup"/>
+</arggraph>

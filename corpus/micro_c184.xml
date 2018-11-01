@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c184">
+  <edu id="e1"><![CDATA[Any family activity has the potential for bonding, sharing, and emulation.]]></edu>
+  <edu id="e2"><![CDATA[Some may think that competitive environment generally associated with sport can be disruptive of family harmony.]]></edu>
+  <edu id="e3"><![CDATA[This is not necessarily the case.]]></edu>
+  <edu id="e4"><![CDATA[Adults have the opportunity to demonstrate sportsmanship and proper behavior to their children.]]></edu>
+  <edu id="e5"><![CDATA[There is ample opportunity for family bonding whether competing as a team or against one other.]]></edu>
+  <edu id="e6"><![CDATA[The documented contribution of sport to physical and mental well-being also argues in favor of family participation.]]></edu>
+  <edu id="e7" implicit="true"><![CDATA[Doing sports together is a good thing for families.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a1" type="seg"/>
+  <edge id="c11" src="e6" trg="a5" type="seg"/>
+  <edge id="c12" src="e7" trg="a6" type="seg"/>
+  <edge id="c1" src="a1" trg="a6" type="sup"/>
+  <edge id="c2" src="a2" trg="a6" type="reb"/>
+  <edge id="c3" src="a3" trg="a2" type="reb"/>
+  <edge id="c4" src="a4" trg="a3" type="sup"/>
+  <edge id="c5" src="a5" trg="a6" type="sup"/>
+</arggraph>

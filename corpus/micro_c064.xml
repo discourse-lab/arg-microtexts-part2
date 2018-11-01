@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c064">
+  <edu id="e1"><![CDATA[Social media has not improved the lives of teenagers.]]></edu>
+  <edu id="e2"><![CDATA[There is so much negativity on social media.]]></edu>
+  <edu id="e3"><![CDATA[Too many people believe that they can say whatever they want without any consequences.]]></edu>
+  <edu id="e4"><![CDATA[People say things on social media that they would not say in person.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c4" src="e1" trg="a1" type="seg"/>
+  <edge id="c5" src="e2" trg="a2" type="seg"/>
+  <edge id="c6" src="e3" trg="a3" type="seg"/>
+  <edge id="c7" src="e4" trg="a4" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+</arggraph>

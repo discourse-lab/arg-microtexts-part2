@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c120">
+  <edu id="e1"><![CDATA[Is nuclear energy really safe? We all remember three mile island and Fukushima tragedies.]]></edu>
+  <edu id="e2"><![CDATA[However major issues with nuclear power plants is extremely rare.]]></edu>
+  <edu id="e3"><![CDATA[In contrast, the known issues to the environment and health from coal burning power plants is well known.]]></edu>
+  <edu id="e4"><![CDATA[All things considered, nuclear energy is a safer and more beneficial alternative.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c4" src="e1" trg="a2" type="seg"/>
+  <edge id="c5" src="e2" trg="a3" type="seg"/>
+  <edge id="c6" src="e3" trg="a4" type="seg"/>
+  <edge id="c7" src="e4" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="reb"/>
+  <edge id="c2" src="a3" trg="c1" type="und"/>
+  <edge id="c3" src="a4" trg="c1" type="und"/>
+</arggraph>

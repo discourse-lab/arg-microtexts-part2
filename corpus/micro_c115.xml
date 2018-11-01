@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c115">
+  <edu id="e1"><![CDATA[I would consider living in a city like Beijing if offered a job there.]]></edu>
+  <edu id="e2"><![CDATA[After doing some research on the matter I would be concerned with the high levels of pollution that the residents are breathing in everyday.]]></edu>
+  <edu id="e3"><![CDATA[In order to combat this I purchased a mask in order to remain healthier in these situations.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <edge id="c3" src="e1" trg="a1" type="seg"/>
+  <edge id="c4" src="e2" trg="a2" type="seg"/>
+  <edge id="c5" src="e3" trg="a3" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="reb"/>
+  <edge id="c2" src="a3" trg="c1" type="und"/>
+</arggraph>

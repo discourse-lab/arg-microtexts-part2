@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c059">
+  <edu id="e1"><![CDATA[Social Media has improved the lives of teenagers.]]></edu>
+  <edu id="e2"><![CDATA[Social media has allowed teenagers a constant way to communicate with each other]]></edu>
+  <edu id="e3"><![CDATA[as well as an easy way to find new potential friends.]]></edu>
+  <edu id="e4"><![CDATA[Numerous people meet new people everyday using platforms such as Facebook and Twitter from the comfort of their own homes.]]></edu>
+  <edu id="e5"><![CDATA[Social Media also allows teenagers to get a look at someone's life before learning more about them.]]></edu>
+  <edu id="e6"><![CDATA[Some social media platforms even make money for teenagers if they have enough followers.]]></edu>
+  <edu id="e7"><![CDATA[All in all, I would definitely say that social media has improved the life of teenagers.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c11" src="e6" trg="a6" type="seg"/>
+  <edge id="c12" src="e7" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a3" type="exa"/>
+  <edge id="c4" src="a5" trg="a1" type="sup"/>
+  <edge id="c5" src="a6" trg="a1" type="sup"/>
+</arggraph>

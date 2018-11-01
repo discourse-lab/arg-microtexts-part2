@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c186">
+  <edu id="e1"><![CDATA[Video games are increasingly popular in our everyday life.]]></edu>
+  <edu id="e2"><![CDATA[They can have a negative impact on lives and children, though.]]></edu>
+  <edu id="e3"><![CDATA[They create less time together and more time involved in solving the puzzle or task assigned to them.]]></edu>
+  <edu id="e4"><![CDATA[There are many which promote violent acts to solve missions,]]></edu>
+  <edu id="e5"><![CDATA[and the chat rooms available open our children to pedophiles and kidnappers posing as children their age.]]></edu>
+  <edu id="e6"><![CDATA[Some have claimed that playing games with their children has helped to increase togetherness and unity,]]></edu>
+  <edu id="e7"><![CDATA[but not a lot of deep, personal conversations can be had while you are fighting each other to the death in a role-playing game.]]></edu>
+  <edu id="e8"><![CDATA[Use of video games are hazardous to successful, happy families.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c6" src="e2" trg="a1" type="seg"/>
+  <edge id="c7" src="e3" trg="a2" type="seg"/>
+  <edge id="c8" src="e4" trg="a3" type="seg"/>
+  <edge id="c9" src="e5" trg="a4" type="seg"/>
+  <edge id="c10" src="e6" trg="a5" type="seg"/>
+  <edge id="c11" src="e7" trg="a6" type="seg"/>
+  <edge id="c12" src="e8" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a1" type="reb"/>
+  <edge id="c5" src="a6" trg="a5" type="reb"/>
+</arggraph>

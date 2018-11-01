@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c123">
+  <edu id="e1"><![CDATA[Yes nuclear energy is safe.]]></edu>
+  <edu id="e2"><![CDATA[There are many safeguards in place at power plants to prevent accidents.]]></edu>
+  <edu id="e3"><![CDATA[It's rare to have a nuclear power plant accident.]]></edu>
+  <edu id="e4"><![CDATA[The benefits of nuclear energy outweigh the risks.]]></edu>
+  <edu id="e5"><![CDATA[Clean energy is worth the slight risk of an accident.]]></edu>
+  <edu id="e6"><![CDATA[Overall nuclear energy is a safe alternative to other forms of energy which can hurt the environment.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c9" src="e5" trg="a5" type="seg"/>
+  <edge id="c10" src="e6" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a4" type="sup"/>
+</arggraph>

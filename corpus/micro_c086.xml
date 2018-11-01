@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c086">
+  <edu id="e1"><![CDATA[Excessive use of video games damages children's ability to interact in real life situations.]]></edu>
+  <edu id="e2"><![CDATA[Not only do kids lose the ability to socialize face to face,]]></edu>
+  <edu id="e3"><![CDATA[but they also have the tendency to become addicted to these video games.]]></edu>
+  <edu id="e4"><![CDATA[Such addiction to video games can open the door to other, more damaging addictions, such as drugs, alcohol, tobacco, and pornography.]]></edu>
+  <edu id="e5"><![CDATA[Although they can be an interesting and captivating teaching tool when used in moderation,]]></edu>
+  <edu id="e6"><![CDATA[if video games are too heavily relied on in the classroom, it can ultimately be damaging to our society.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c6" src="e1" trg="a3" type="seg"/>
+  <edge id="c7" src="e2" trg="a4" type="seg"/>
+  <edge id="c8" src="e3" trg="a5" type="seg"/>
+  <edge id="c9" src="e4" trg="a6" type="seg"/>
+  <edge id="c10" src="e5" trg="a2" type="seg"/>
+  <edge id="c11" src="e6" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="reb"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a1" type="sup"/>
+  <edge id="c5" src="a6" trg="a5" type="sup"/>
+</arggraph>

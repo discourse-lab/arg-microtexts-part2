@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c023">
+  <edu id="e1"><![CDATA[Have cell phones and social media made families closer? We would like to think that these modern inventions have accomplished the opposite,]]></edu>
+  <edu id="e2"><![CDATA[however, it seems as though families are closer nowadays.]]></edu>
+  <edu id="e3"><![CDATA[They stay in touch with each other throughout the day]]></edu>
+  <edu id="e4"><![CDATA[and for those that live far apart, social media and unlimited cell phone plans have made it possible to have daily contact rather than waiting for special occasions.]]></edu>
+  <edu id="e5"><![CDATA[Long distance rates no longer apply like they did when I was a child.]]></edu>
+  <edu id="e6"><![CDATA[I can talk to my cousins whenever I like.]]></edu>
+  <edu id="e7"><![CDATA[I have to admit though, that having the ability to communicate so freely does not mean that we do it.]]></edu>
+  <adu id="a1" type="opp"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="opp"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a7" type="seg"/>
+  <edge id="c9" src="e3" trg="a2" type="seg"/>
+  <edge id="c10" src="e4" trg="a3" type="seg"/>
+  <edge id="c11" src="e5" trg="a4" type="seg"/>
+  <edge id="c12" src="e6" trg="a5" type="seg"/>
+  <edge id="c13" src="e7" trg="a6" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="reb"/>
+  <edge id="c2" src="a3" trg="a1" type="reb"/>
+  <edge id="c3" src="a4" trg="a7" type="sup"/>
+  <edge id="c4" src="a5" trg="a4" type="exa"/>
+  <edge id="c5" src="a6" trg="c3" type="und"/>
+  <edge id="c6" src="a7" trg="a1" type="reb"/>
+</arggraph>

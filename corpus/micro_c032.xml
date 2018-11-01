@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c032">
+  <edu id="e1"><![CDATA[We don't need fracking,]]></edu>
+  <edu id="e2"><![CDATA[because we already get enough oil from other countries and without fracking.]]></edu>
+  <edu id="e3"><![CDATA[We can also use other energy sources besides oil like electricity and natural gas.]]></edu>
+  <edu id="e4"><![CDATA[Therefore, we don't need to frack,]]></edu>
+  <edu id="e5"><![CDATA[especially because it's unhealthy for the surrounding areas and it's people.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c4" src="e1" trg="a1" type="seg"/>
+  <edge id="c5" src="e2" trg="a2" type="seg"/>
+  <edge id="c6" src="e3" trg="a3" type="seg"/>
+  <edge id="c7" src="e4" trg="a1" type="seg"/>
+  <edge id="c8" src="e5" trg="a4" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+</arggraph>

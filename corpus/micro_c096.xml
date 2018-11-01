@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c096">
+  <edu id="e1"><![CDATA[Most studies show that LED lights tend to consume less energy for the same amount of light emitted.]]></edu>
+  <edu id="e2"><![CDATA[They are generally considered to be much more efficient than incandescent light bulbs for example.]]></edu>
+  <edu id="e3"><![CDATA[So it seems logical to think that LED lights would indeed make a difference, that is they would decrease, our energy consumption.]]></edu>
+  <edu id="e4"><![CDATA[It might be argued that some people could end up using LED lights more heavily because knowing that they are less expensive to operate,]]></edu>
+  <edu id="e5"><![CDATA[but it's generally understood that people don't necessarily increase their lighting uses easily, it's something that tends to remain stable.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c5" src="e1" trg="a2" type="seg"/>
+  <edge id="c6" src="e2" trg="a3" type="seg"/>
+  <edge id="c7" src="e3" trg="a1" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c9" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a2" type="exa"/>
+  <edge id="c3" src="a4" trg="a1" type="reb"/>
+  <edge id="c4" src="a5" trg="a4" type="reb"/>
+</arggraph>

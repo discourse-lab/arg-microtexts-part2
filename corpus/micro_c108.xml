@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c108">
+  <edu id="e1"><![CDATA[Composting can help the environment]]></edu>
+  <edu id="e2"><![CDATA[because composting reduces greenhouse gases.]]></edu>
+  <edu id="e3"><![CDATA[Composting also helps to replenish soil with critical minerals and nutrients that lead to better soil quality.]]></edu>
+  <edu id="e4"><![CDATA[Another benefit of composting is that it helps to keep food scraps out of landfills.]]></edu>
+  <edu id="e5"><![CDATA[There can be a downside with composting due to runoff]]></edu>
+  <edu id="e6"><![CDATA[as some composting materials contain heavy metals]]></edu>
+  <edu id="e7"><![CDATA[but enhanced filtration systems are minimizing the risk of this impact.]]></edu>
+  <edu id="e8"><![CDATA[Overall, composting has multiple benefits that will all contribute in aggregate toward helping our environment.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="opp"/>
+  <adu id="a7" type="pro"/>
+  <adu id="a8" type="pro"/>
+  <edge id="c8" src="e1" trg="a1" type="seg"/>
+  <edge id="c9" src="e2" trg="a2" type="seg"/>
+  <edge id="c10" src="e3" trg="a3" type="seg"/>
+  <edge id="c11" src="e4" trg="a4" type="seg"/>
+  <edge id="c12" src="e5" trg="a5" type="seg"/>
+  <edge id="c13" src="e6" trg="a6" type="seg"/>
+  <edge id="c14" src="e7" trg="a7" type="seg"/>
+  <edge id="c15" src="e8" trg="a8" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a1" type="reb"/>
+  <edge id="c5" src="a6" trg="a5" type="sup"/>
+  <edge id="c6" src="a7" trg="c4" type="und"/>
+  <edge id="c7" src="a8" trg="a1" type="sup"/>
+</arggraph>

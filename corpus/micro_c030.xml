@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c030">
+  <edu id="e1"><![CDATA[People should date for at least 1 year before they become engaged.]]></edu>
+  <edu id="e2"><![CDATA[It takes at least this long to get to know each other on a level deeper than attraction.]]></edu>
+  <edu id="e3"><![CDATA[They should use this time to learn of each others character and beliefs.]]></edu>
+  <edu id="e4"><![CDATA[Families should get to know them as a couple as well.]]></edu>
+  <edu id="e5"><![CDATA[Christians who believe in waiting till marriage for sex could argue that it is better to marry sooner than to have premarital sex.  This may be true,]]></edu>
+  <edu id="e6"><![CDATA[but it also takes a much larger chance that the couple will actually be compatible in the long run.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a4" type="seg"/>
+  <edge id="c10" src="e5" trg="a5" type="seg"/>
+  <edge id="c11" src="e6" trg="a6" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a1" type="reb"/>
+  <edge id="c5" src="a6" trg="c4" type="und"/>
+</arggraph>

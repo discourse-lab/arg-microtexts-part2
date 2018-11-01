@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c117">
+  <edu id="e1"><![CDATA[I would be too worried about my health to move to Beijing.]]></edu>
+  <edu id="e2"><![CDATA[I do not think a high paying job would be worth it if it either messed me up for life or caused my life to end early because of the high rate of pollution.]]></edu>
+  <edu id="e3"><![CDATA[I have not seen or even heard of China working to lower or rid the city of its problem.]]></edu>
+  <edu id="e4"><![CDATA[I might want to move there to be closer to Japan and have a high paying job,]]></edu>
+  <edu id="e5"><![CDATA[but in the end it wouldn't be worth it.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c5" src="e1" trg="a1" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c9" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a2" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="reb"/>
+  <edge id="c4" src="a5" trg="c3" type="und"/>
+</arggraph>

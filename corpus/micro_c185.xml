@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c185">
+  <edu id="e1"><![CDATA[Families participating in sports teams can be a good way to bond.]]></edu>
+  <edu id="e2"><![CDATA[When families are competing together and working together as a team they feel more connected and engaged with each other.]]></edu>
+  <edu id="e3"><![CDATA[It is also an excellent way to improve the family's total health.]]></edu>
+  <edu id="e4"><![CDATA[Sports also helps to teach families discipline.]]></edu>
+  <edu id="e5"><![CDATA[The risk of injury is a possible side effect from families doing sports together,]]></edu>
+  <edu id="e6"><![CDATA[but the positive benefits far outweigh any risks.]]></edu>
+  <edu id="e7" implicit="true"><![CDATA[Doing sports together is a good thing for families.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="opp"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c7" src="e1" trg="a2" type="seg"/>
+  <edge id="c8" src="e2" trg="a3" type="seg"/>
+  <edge id="c9" src="e3" trg="a4" type="seg"/>
+  <edge id="c10" src="e4" trg="a5" type="seg"/>
+  <edge id="c11" src="e5" trg="a6" type="seg"/>
+  <edge id="c12" src="e6" trg="a7" type="seg"/>
+  <edge id="c13" src="e7" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a2" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a1" type="sup"/>
+  <edge id="c5" src="a6" trg="a1" type="reb"/>
+  <edge id="c6" src="a7" trg="c5" type="und"/>
+</arggraph>

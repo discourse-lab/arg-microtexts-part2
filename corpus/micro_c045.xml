@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c045">
+  <edu id="e1"><![CDATA[Recycling really does make a difference]]></edu>
+  <edu id="e2"><![CDATA[because without it, there would be an abundance of paper, glass, and plastic.]]></edu>
+  <edu id="e3"><![CDATA[If we did not recycle, before long there would be nowhere to put all of the extra garbage.]]></edu>
+  <edu id="e4"><![CDATA[Recycling helps the environment]]></edu>
+  <edu id="e5"><![CDATA[by keeping non-natural things out of it.]]></edu>
+  <edu id="e6"><![CDATA[This way, animals do not accidentally eat it and get sick or die.]]></edu>
+  <edu id="e7"><![CDATA[It also helps keep plastics, which are not biodegradable, out of the environment, and from getting into our water supplies.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c13" src="e7" trg="a7" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="c1" type="add"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a4" type="sup"/>
+  <edge id="c5" src="a6" trg="c4" type="add"/>
+  <edge id="c6" src="a7" trg="a1" type="sup"/>
+</arggraph>

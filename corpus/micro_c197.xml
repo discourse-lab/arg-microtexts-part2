@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c197">
+  <edu id="e1"><![CDATA[It is not normal behavior to treat you dog as an equal to your family.]]></edu>
+  <edu id="e2"><![CDATA[In some ways it is good for the heart to have a fur friend in your home.]]></edu>
+  <edu id="e3"><![CDATA[The supplies for dogs can be somewhat expensive.]]></edu>
+  <edu id="e4"><![CDATA[If a person loses their source of income then their dogs may suffer and not receive adequate care.]]></edu>
+  <edu id="e5"><![CDATA[Treating a dog on par with family members is a very unwise choice]]></edu>
+  <edu id="e6"><![CDATA[because we never know what will happen in the future.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a6" type="seg"/>
+  <edge id="c9" src="e4" trg="a5" type="seg"/>
+  <edge id="c10" src="e5" trg="a3" type="seg"/>
+  <edge id="c11" src="e6" trg="a4" type="seg"/>
+  <edge id="c1" src="a1" trg="a3" type="sup"/>
+  <edge id="c2" src="a2" trg="a3" type="sup"/>
+  <edge id="c3" src="a4" trg="a3" type="sup"/>
+  <edge id="c4" src="a5" trg="a3" type="sup"/>
+  <edge id="c5" src="a6" trg="a5" type="sup"/>
+</arggraph>

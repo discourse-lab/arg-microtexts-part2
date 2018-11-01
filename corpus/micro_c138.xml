@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c138">
+  <edu id="e1"><![CDATA[Wind energy is a significant part of meeting the needs of society in the future]]></edu>
+  <edu id="e2"><![CDATA[and with proper government regulation, the spread of it can be faster.]]></edu>
+  <edu id="e3"><![CDATA[By passing laws and offering the proper incentives private companies can be motivated to pursue more development and use of wind energy.]]></edu>
+  <edu id="e4"><![CDATA[The government has to make the case that wind energy is clean, safe and a way to provide for the future without much intrusion on the environment. Local governments, as well as the federal government, must also coordinate promotion and implementation of wind energy, and finally, the government should force itself by the passing of laws to make government buildings and facilities use wind energy, thereby promoting it.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c4" src="e1" trg="a4" type="seg"/>
+  <edge id="c5" src="e2" trg="a3" type="seg"/>
+  <edge id="c6" src="e3" trg="a2" type="seg"/>
+  <edge id="c7" src="e4" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+</arggraph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c179">
+  <edu id="e1"><![CDATA[Being an only child is not a good thing.]]></edu>
+  <edu id="e2"><![CDATA[Often single children are spoiled]]></edu>
+  <edu id="e3"><![CDATA[and because of this, they think they are entitled to more and better things than others as they grow up.]]></edu>
+  <edu id="e4"><![CDATA[Being an only child can also cause feelings of loneliness and isolation, which are not good for a child's mental health.]]></edu>
+  <edu id="e5"><![CDATA[Being an only child can be boring for a child, so it is also more of a strain on the parents to keep the child busy and to socialize the child.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c5" src="e1" trg="a2" type="seg"/>
+  <edge id="c6" src="e2" trg="a3" type="seg"/>
+  <edge id="c7" src="e3" trg="a1" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c9" src="e5" trg="a5" type="seg"/>
+  <edge id="c1" src="a1" trg="a2" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a2" type="sup"/>
+  <edge id="c4" src="a5" trg="a2" type="sup"/>
+</arggraph>

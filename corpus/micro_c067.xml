@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c067">
+  <edu id="e1"><![CDATA[The problem with plastic bags is they are not biodegradable]]></edu>
+  <edu id="e2"><![CDATA[and they pollute the environment.]]></edu>
+  <edu id="e3"><![CDATA[In order to encourage the use for reusable bags it would be ideal to charge for the plastic bags]]></edu>
+  <edu id="e4"><![CDATA[to provide an incentive for using them.]]></edu>
+  <edu id="e5"><![CDATA[There are those who would say that not everyone can afford reusable bags]]></edu>
+  <edu id="e6"><![CDATA[but that is not a valid argument]]></edu>
+  <edu id="e7"><![CDATA[because the plastic bags will still be available for only a few pennies.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="opp"/>
+  <adu id="a6" type="pro"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c7" src="e1" trg="a3" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a1" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c13" src="e7" trg="a7" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a2" type="sup"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a1" type="reb"/>
+  <edge id="c5" src="a6" trg="a5" type="reb"/>
+  <edge id="c6" src="a7" trg="a6" type="sup"/>
+</arggraph>

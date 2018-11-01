@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c039">
+  <edu id="e1"><![CDATA[The romantic expectations by romantic movies are damaging to relationships in a number of ways.]]></edu>
+  <edu id="e2"><![CDATA[In movies, every situation is dramatic and overblown, unlike real life.]]></edu>
+  <edu id="e3"><![CDATA[Every situation has a resolution within 2 hours, unlike real life.]]></edu>
+  <edu id="e4"><![CDATA[These unrealistic expectations are generally only recognized by one side of the relationship,]]></edu>
+  <edu id="e5"><![CDATA[which causes a damaging imbalance in real relationships.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c4" src="e1" trg="a1" type="seg"/>
+  <edge id="c5" src="e2" trg="a2" type="seg"/>
+  <edge id="c6" src="e3" trg="a3" type="seg"/>
+  <edge id="c7" src="e4" trg="a4" type="seg"/>
+  <edge id="c8" src="e5" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="c1" type="add"/>
+  <edge id="c3" src="a4" trg="c1" type="add"/>
+</arggraph>

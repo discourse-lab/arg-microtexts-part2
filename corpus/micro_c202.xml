@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c202">
+  <edu id="e1"><![CDATA[I personally lean towards large families being worse for children than small families.]]></edu>
+  <edu id="e2"><![CDATA[In a larger family resources per child would be more scarce both financially, e.g. college, and parental.]]></edu>
+  <edu id="e3"><![CDATA[Of course this argument is based on the assumption that the topic is about families in developed countries, in developing countries larger families can be a necessity to make sure that any of the children live to adulthood.]]></edu>
+  <edu id="e4"><![CDATA[In a developed country a child needing interaction with other children would have to interact with their non-family peers, thereby learning valuable social skills.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="opp"/>
+  <adu id="a4" type="pro"/>
+  <edge id="c4" src="e1" trg="a1" type="seg"/>
+  <edge id="c5" src="e2" trg="a2" type="seg"/>
+  <edge id="c6" src="e3" trg="a3" type="seg"/>
+  <edge id="c7" src="e4" trg="a4" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="reb"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+</arggraph>

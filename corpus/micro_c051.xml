@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c051">
+  <edu id="e1"><![CDATA[Anyone who operating a vehicle should be strictly prohibited to use a cell phone in any capacity, unless its hands-free; which mean no phone calls, making or receiving, no texting, messaging, no surfing the web, viewing videos or photos and no playing games.]]></edu>
+  <edu id="e2"><![CDATA[Being distracting by one's cell phone can significantly increase the chances of getting into a major car accident, cause harm to the driver, their passengers and other motorists on the road.]]></edu>
+  <edu id="e3"><![CDATA[No matter who good a driver you might think you are, and you may feel that your paying attention well enough,]]></edu>
+  <edu id="e4"><![CDATA[but the truth of the matter is, driving needs the driver's full attention.]]></edu>
+  <edu id="e5"><![CDATA[Any caught driving while operating a cell phone should be punished with steep fines.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="opp"/>
+  <edge id="c4" src="e1" trg="a1" type="seg"/>
+  <edge id="c5" src="e2" trg="a2" type="seg"/>
+  <edge id="c6" src="e3" trg="a4" type="seg"/>
+  <edge id="c7" src="e4" trg="a3" type="seg"/>
+  <edge id="c8" src="e5" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a4" type="reb"/>
+  <edge id="c3" src="a4" trg="a2" type="reb"/>
+</arggraph>

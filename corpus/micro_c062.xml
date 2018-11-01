@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c062">
+  <edu id="e1"><![CDATA[Social media has improved the lives of teenagers.]]></edu>
+  <edu id="e2"><![CDATA[As an umbrella term, its impact can be nebulous,]]></edu>
+  <edu id="e3"><![CDATA[but the simple fact remains that young people today can find it easier to find like-minded others and new friends who share even uncommon interests.]]></edu>
+  <edu id="e4"><![CDATA[They can reach out for support or camaraderie at pretty much any time rather than being limited to time spent physically with others their own age.]]></edu>
+  <edu id="e5"><![CDATA[They can share what matters to them and feel validation that adolescents in the past may have been unable to find.]]></edu>
+  <edu id="e6"><![CDATA[Though many point out the dangers of online bullying or even adult predators,]]></edu>
+  <edu id="e7"><![CDATA[the overarching truth is that social media afford teenagers the opportunity for meaningful interaction impossible before its advent.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="opp"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c13" src="e7" trg="a7" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="reb"/>
+  <edge id="c2" src="a3" trg="c1" type="und"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a1" type="sup"/>
+  <edge id="c5" src="a6" trg="a1" type="reb"/>
+  <edge id="c6" src="a7" trg="c5" type="und"/>
+</arggraph>

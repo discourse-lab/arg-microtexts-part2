@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c044">
+  <edu id="e1"><![CDATA[I believe that recycling does indeed make a big difference.]]></edu>
+  <edu id="e2"><![CDATA[When we recycle we are making less trash that winds up in our landfills.]]></edu>
+  <edu id="e3"><![CDATA[There are many benefits to recycling,]]></edu>
+  <edu id="e4"><![CDATA[one being we are using less energy by recycling then we use by producing new items.]]></edu>
+  <edu id="e5"><![CDATA[It also makes people feel like they are really making an impact on the environment by doing something that is very easy and doesn't take much time to do.]]></edu>
+  <edu id="e6"><![CDATA[I really don't see any downside to recycling.]]></edu>
+  <edu id="e7"><![CDATA[One should always try to reuse, reduce and recycle anything that they can.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="pro"/>
+  <edge id="c6" src="e1" trg="a1" type="seg"/>
+  <edge id="c7" src="e2" trg="a2" type="seg"/>
+  <edge id="c8" src="e3" trg="a3" type="seg"/>
+  <edge id="c9" src="e4" trg="a6" type="seg"/>
+  <edge id="c10" src="e5" trg="a4" type="seg"/>
+  <edge id="c11" src="e6" trg="a5" type="seg"/>
+  <edge id="c12" src="e7" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a1" type="sup"/>
+  <edge id="c3" src="a4" trg="a3" type="exa"/>
+  <edge id="c4" src="a5" trg="a1" type="sup"/>
+  <edge id="c5" src="a6" trg="a3" type="exa"/>
+</arggraph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c172">
+  <edu id="e1"><![CDATA[Helicopter parents can cause children to grow up to be overly dependent.]]></edu>
+  <edu id="e2"><![CDATA[While watchful parents keep their children out of harms way,]]></edu>
+  <edu id="e3"><![CDATA[they also make it difficult for their child to become independent and make their own decisions.]]></edu>
+  <edu id="e4"><![CDATA[Children should be able to make some small decisions for themselves at a young age;]]></edu>
+  <edu id="e5"><![CDATA[this way, they can continue to make bigger decisions as they grow into teens and young adults.]]></edu>
+  <edu id="e6" implicit="true"><![CDATA[Helicopter parents are bad for their children.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="opp"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <edge id="c5" src="e1" trg="a3" type="seg"/>
+  <edge id="c6" src="e2" trg="a2" type="seg"/>
+  <edge id="c7" src="e3" trg="a3" type="seg"/>
+  <edge id="c8" src="e4" trg="a4" type="seg"/>
+  <edge id="c9" src="e5" trg="a5" type="seg"/>
+  <edge id="c10" src="e6" trg="a1" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="reb"/>
+  <edge id="c2" src="a3" trg="c1" type="und"/>
+  <edge id="c3" src="a4" trg="a3" type="sup"/>
+  <edge id="c4" src="a5" trg="a4" type="sup"/>
+</arggraph>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<arggraph id="micro_c081">
+  <edu id="e1"><![CDATA[Being a vegetarian or vegan helps the environment]]></edu>
+  <edu id="e2"><![CDATA[by using less resources.]]></edu>
+  <edu id="e3"><![CDATA[For example, the production of meat use more resources in terms of cattle feed, energy, and human labor.]]></edu>
+  <edu id="e4"><![CDATA[Harvesting  vegetables will reduce waste.]]></edu>
+  <edu id="e5"><![CDATA[The proper crops will also feed more people.]]></edu>
+  <edu id="e6"><![CDATA[However, being vegetarian requires more vigilance in terms of sufficient vitamins, which meat eaters need not concern.]]></edu>
+  <edu id="e7"><![CDATA[Overall, being vegetarian is easier on the environment]]></edu>
+  <edu id="e8"><![CDATA[because production of fruit, vegetables and grain relieve strain on resources]]></edu>
+  <edu id="e9"><![CDATA[and is a healthier life style.]]></edu>
+  <adu id="a1" type="pro"/>
+  <adu id="a2" type="pro"/>
+  <adu id="a3" type="pro"/>
+  <adu id="a4" type="pro"/>
+  <adu id="a5" type="pro"/>
+  <adu id="a6" type="opp"/>
+  <adu id="a7" type="pro"/>
+  <edge id="c7" src="e1" trg="a1" type="seg"/>
+  <edge id="c8" src="e2" trg="a2" type="seg"/>
+  <edge id="c9" src="e3" trg="a3" type="seg"/>
+  <edge id="c10" src="e4" trg="a4" type="seg"/>
+  <edge id="c11" src="e5" trg="a5" type="seg"/>
+  <edge id="c12" src="e6" trg="a6" type="seg"/>
+  <edge id="c13" src="e7" trg="a1" type="seg"/>
+  <edge id="c14" src="e8" trg="a2" type="seg"/>
+  <edge id="c15" src="e9" trg="a7" type="seg"/>
+  <edge id="c1" src="a2" trg="a1" type="sup"/>
+  <edge id="c2" src="a3" trg="a2" type="exa"/>
+  <edge id="c3" src="a4" trg="a1" type="sup"/>
+  <edge id="c4" src="a5" trg="a1" type="sup"/>
+  <edge id="c5" src="a6" trg="a1" type="reb"/>
+  <edge id="c6" src="a7" trg="a1" type="sup"/>
+</arggraph>
