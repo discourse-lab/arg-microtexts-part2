@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c080">
+<arggraph id="micro_c080" topic_id="violent_video_games_cause_violence" stance="con">
   <edu id="e1"><![CDATA[Violent video games do not themselves cause people to act out violently.]]></edu>
   <edu id="e2"><![CDATA[Video games may contribute to the overall mindset of a violent person who acts out violently,]]></edu>
   <edu id="e3"><![CDATA[but cannot in and of themselves cause violence.]]></edu>

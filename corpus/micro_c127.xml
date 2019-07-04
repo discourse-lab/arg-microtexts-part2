@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c127">
+<arggraph id="micro_c127" topic_id="responsible_handling_of_nuclear_waste" stance="con">
   <edu id="e1"><![CDATA[There is no solution to the nuclear waste problem.]]></edu>
   <edu id="e2"><![CDATA[It takes thousands of years to dilute nuclear waste to a level considered safe.]]></edu>
   <edu id="e3"><![CDATA[Managing nuclear waste poses a huge risk to people and the environment.]]></edu>

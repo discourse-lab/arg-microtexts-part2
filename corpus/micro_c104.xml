@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c104">
+<arggraph id="micro_c104" topic_id="composting_helps_environment" stance="pro">
   <edu id="e1"><![CDATA[Composting helps the natural environment]]></edu>
   <edu id="e2"><![CDATA[and aids in organic farming.]]></edu>
   <edu id="e3"><![CDATA[Composting helps the environment by reducing the amount of waste households produce and turning it into natural compost.]]></edu>

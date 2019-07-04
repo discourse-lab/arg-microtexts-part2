@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c037">
+<arggraph id="micro_c037" topic_id="romantic_movies_endanger_relationships" stance="con">
   <edu id="e1"><![CDATA[I do not believe movies have any effect on relationships.]]></edu>
   <edu id="e2"><![CDATA[If one blamed a movie for their relationship problems, they are in denial about issues that are already there.]]></edu>
   <edu id="e3"><![CDATA[Movies are an escape]]></edu>

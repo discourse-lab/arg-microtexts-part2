@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c081">
+<arggraph id="micro_c081" topic_id="veganism_helps_environment" stance="pro">
   <edu id="e1"><![CDATA[Being a vegetarian or vegan helps the environment]]></edu>
   <edu id="e2"><![CDATA[by using less resources.]]></edu>
   <edu id="e3"><![CDATA[For example, the production of meat use more resources in terms of cattle feed, energy, and human labor.]]></edu>

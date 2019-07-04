@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c113">
+<arggraph id="micro_c113" topic_id="smart_watches_replace_cell_phones" stance="con">
   <edu id="e1"><![CDATA[Smart watches won't replace cell phones.]]></edu>
   <edu id="e2"><![CDATA[I think they are a great component to pair with a smart phone.]]></edu>
   <edu id="e3"><![CDATA[But for someone like me who has really bad eye, you can't see the smaller text.]]></edu>

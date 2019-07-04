@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c143">
+<arggraph id="micro_c143" topic_id="government_regulation_increases_solar_energy" stance="pro">
   <edu id="e1"><![CDATA[Wind energy is a viable form of alternative energy production that should be encouraged in use.]]></edu>
   <edu id="e2"><![CDATA[Government regulation is important for this,]]></edu>
   <edu id="e3"><![CDATA[as it provides incentives for using wind energy]]></edu>

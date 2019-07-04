@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c120">
+<arggraph id="micro_c120" topic_id="nuclear_energy_safe" stance="pro">
   <edu id="e1"><![CDATA[Is nuclear energy really safe? We all remember three mile island and Fukushima tragedies.]]></edu>
   <edu id="e2"><![CDATA[However major issues with nuclear power plants is extremely rare.]]></edu>
   <edu id="e3"><![CDATA[In contrast, the known issues to the environment and health from coal burning power plants is well known.]]></edu>

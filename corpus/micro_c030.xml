@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c030">
+<arggraph id="micro_c030" topic_id="dating_before_engagement" stance="pro">
   <edu id="e1"><![CDATA[People should date for at least 1 year before they become engaged.]]></edu>
   <edu id="e2"><![CDATA[It takes at least this long to get to know each other on a level deeper than attraction.]]></edu>
   <edu id="e3"><![CDATA[They should use this time to learn of each others character and beliefs.]]></edu>

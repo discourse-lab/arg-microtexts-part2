@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c197">
+<arggraph id="micro_c197" topic_id="treat_dogs_as_humans" stance="con">
   <edu id="e1"><![CDATA[It is not normal behavior to treat you dog as an equal to your family.]]></edu>
   <edu id="e2"><![CDATA[In some ways it is good for the heart to have a fur friend in your home.]]></edu>
   <edu id="e3"><![CDATA[The supplies for dogs can be somewhat expensive.]]></edu>

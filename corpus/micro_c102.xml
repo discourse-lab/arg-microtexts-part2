@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c102">
+<arggraph id="micro_c102" topic_id="books_obsolete" stance="pro">
   <edu id="e1"><![CDATA[Paper and books, at some point will become obsolete.]]></edu>
   <edu id="e2"><![CDATA[It is far more convenient and takes up a lot less space to store data on hard drives and disks than to use paper products.]]></edu>
   <edu id="e3"><![CDATA[Paper can deteriorate if improperly stored,]]></edu>

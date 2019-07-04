@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c034">
+<arggraph id="micro_c034" topic_id="fracking" stance="con">
   <edu id="e1"><![CDATA[Fracking is unnecessary and unsafe.]]></edu>
   <edu id="e2"><![CDATA[Fracking causing environmental problems such as polluting the water supply.]]></edu>
   <edu id="e3"><![CDATA[Also, fracking has been shown to destabilize the ground and cause earthquakes in the Midwest.]]></edu>

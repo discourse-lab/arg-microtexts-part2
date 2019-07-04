@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c097">
+<arggraph id="micro_c097" topic_id="LED_lights_reduce_energy" stance="pro">
   <edu id="e1"><![CDATA[LED lights do cost more than traditional incandescent bulbs.]]></edu>
   <edu id="e2"><![CDATA[But in the long run, they will help save energy.]]></edu>
   <edu id="e3"><![CDATA[They use 25 to 80 percent less power.]]></edu>

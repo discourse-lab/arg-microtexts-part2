@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c141">
+<arggraph id="micro_c141" topic_id="government_regulation_increases_solar_energy" stance="con">
   <edu id="e1"><![CDATA[Government can pass regulations to make wind energy more inviting to investors and businesses,]]></edu>
   <edu id="e2"><![CDATA[but only that private investment will really speed up the spread of wind energy.]]></edu>
   <edu id="e3"><![CDATA[Energy companies in the U.S. are privately owned and make their choices based on what is economically feasible.]]></edu>

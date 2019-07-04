@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c151">
+<arggraph id="micro_c151" topic_id="kids_recovery_from_divorce" stance="pro"> 
   <edu id="e1"><![CDATA[Divorce is an unfortunate turn of events in any marriage and kids are the one who are hit hardest by it.]]></edu>
   <edu id="e2"><![CDATA[However, with some counselling and support they can recover from it.]]></edu>
   <edu id="e3" implicit="true"><![CDATA[Kids can recover from a divorce.]]></edu>

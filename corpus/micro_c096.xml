@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c096">
+<arggraph id="micro_c096" topic_id="LED_lights_reduce_energy" stance="pro">
   <edu id="e1"><![CDATA[Most studies show that LED lights tend to consume less energy for the same amount of light emitted.]]></edu>
   <edu id="e2"><![CDATA[They are generally considered to be much more efficient than incandescent light bulbs for example.]]></edu>
   <edu id="e3"><![CDATA[So it seems logical to think that LED lights would indeed make a difference, that is they would decrease, our energy consumption.]]></edu>

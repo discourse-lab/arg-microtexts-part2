@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c082">
+<arggraph id="micro_c082" topic_id="veganism_helps_environment" stance="con">
   <edu id="e1"><![CDATA[Being a vegetarian or vegan does not help the environment.]]></edu>
   <edu id="e2"><![CDATA[The amount of waste and pollution produced by farming vegetables is comparable to the waste expelled from processing meat.]]></edu>
   <edu id="e3"><![CDATA[Consuming no meat or animal products will not help the environment at all.]]></edu>

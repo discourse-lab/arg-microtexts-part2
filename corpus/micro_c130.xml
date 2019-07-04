@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c130">
+<arggraph id="micro_c130" topic_id="trash_in_landfills" stance="pro">
   <edu id="e1"><![CDATA[The trash needs to go somewhere.]]></edu>
   <edu id="e2"><![CDATA[The garbage needs to be dumped somewhere.]]></edu>
   <edu id="e3"><![CDATA[There are places in the world without landfills, and they suck.]]></edu>

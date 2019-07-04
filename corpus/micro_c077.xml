@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c077">
+<arggraph id="micro_c077" topic_id="violent_video_games_cause_violence" stance="con">
   <edu id="e1"><![CDATA[violent video games cause people to watch and participate in imaginary scenarios.]]></edu>
   <edu id="e2"><![CDATA[imaginary scenarios are no more dangerous than television or movies.]]></edu>
   <edu id="e3"><![CDATA[some may argue that television and movies also cause people to act violently.]]></edu>

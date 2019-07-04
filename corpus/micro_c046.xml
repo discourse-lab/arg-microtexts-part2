@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c046">
+<arggraph id="micro_c046" topic_id="prohibition_of_phones_while_driving" stance="pro">
   <edu id="e1"><![CDATA[Car drivers should be prohibited from using cell phones]]></edu>
   <edu id="e2"><![CDATA[because they tend to cause distraction.]]></edu>
   <edu id="e3"><![CDATA[Holding the cell phone in the hand while driving and talking causes attention to be diverted off the roads and traffic.]]></edu>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c066">
+<arggraph id="micro_c066" topic_id="charge_for_plastic_bags" stance="pro">
   <edu id="e1"><![CDATA[It is important that we try to save our planet from plastics and other things that we can not recycle.]]></edu>
   <edu id="e2"><![CDATA[I think that with that in mind we should charge for plastic bags.]]></edu>
   <adu id="a1" type="pro"/>

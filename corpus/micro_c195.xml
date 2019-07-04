@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c195">
+<arggraph id="micro_c195" topic_id="treat_dogs_as_humans" stance="pro">
   <edu id="e1"><![CDATA[Dogs will show unconditional love whether treated good or bad.]]></edu>
   <edu id="e2"><![CDATA[They should be treated as part of the family.]]></edu>
   <edu id="e3"><![CDATA[They are loyal and forgiving.]]></edu>

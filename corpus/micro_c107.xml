@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c107">
+<arggraph id="micro_c107" topic_id="composting_helps_environment" stance="pro">
   <edu id="e1"><![CDATA[Food waste is taking up too much space as landfill.]]></edu>
   <edu id="e2"><![CDATA[Landfill waste is bad for the environment.]]></edu>
   <edu id="e3"><![CDATA[It takes up so much space and makes it useless.]]></edu>

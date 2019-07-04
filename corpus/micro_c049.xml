@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c049">
+<arggraph id="micro_c049" topic_id="prohibition_of_phones_while_driving" stance="pro">
   <edu id="e1"><![CDATA[Driving cars while talking on the telephone has been proven again and again to lead to increased numbers of accident.]]></edu>
   <edu id="e2"><![CDATA[You cannot focus properly on the road if you are distracted by the phone.]]></edu>
   <edu id="e3" implicit="true"><![CDATA[Yes, car drivers should be strictly prohibited from using cell phones.]]></edu>

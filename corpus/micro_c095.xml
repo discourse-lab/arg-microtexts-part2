@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c095">
+<arggraph id="micro_c095" topic_id="LED_lights_reduce_energy" stance="pro">
   <edu id="e1"><![CDATA[Using LED lights can make a positive impact on energy consumption.]]></edu>
   <edu id="e2"><![CDATA[This has been widely acknowledged.]]></edu>
   <edu id="e3"><![CDATA[Every light we use makes a tiny difference so full scale conversion to LED lights can have a vast impact in aggregate.]]></edu>

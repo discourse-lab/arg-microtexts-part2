@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c194">
+<arggraph id="micro_c194" topic_id="treat_dogs_as_humans" stance="pro">
   <edu id="e1"><![CDATA[For the purposes of treatment and care it is absolutely okay to treat the family pet dog on par with other family members.]]></edu>
   <edu id="e2"><![CDATA[Dogs need water, food, and medical treatment just like humans.]]></edu>
   <edu id="e3"><![CDATA[They also need attention and affection just like humans.]]></edu>

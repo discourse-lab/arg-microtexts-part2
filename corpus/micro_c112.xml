@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c112">
+<arggraph id="micro_c112" topic_id="smart_watches_replace_cell_phones" stance="pro">
   <edu id="e1"><![CDATA[It is difficult to misplace a smart watch because its usually on your wrist,]]></edu>
   <edu id="e2"><![CDATA[whereas, a cell phone is constantly misplaced.]]></edu>
   <edu id="e3"><![CDATA[The screen on a smart watch is smaller than a cell phone,]]></edu>

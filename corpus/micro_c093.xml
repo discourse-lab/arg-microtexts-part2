@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c093">
+<arggraph id="micro_c093" topic_id="LED_lights_reduce_energy" stance="pro">
   <edu id="e1"><![CDATA[There are many benefits to using LED lights.]]></edu>
   <edu id="e2"><![CDATA[The major one being that they have a longer life than traditional light bulbs, thus making an impact on the environment.]]></edu>
   <edu id="e3"><![CDATA[They also use less energy to run, conserving energy and cutting costs to consumers.]]></edu>

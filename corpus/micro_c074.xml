@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c074">
+<arggraph id="micro_c074" topic_id="violent_video_games_cause_violence" stance="pro">
   <edu id="e1"><![CDATA[Violent video games do increase violent behavior, especially in young children.]]></edu>
   <edu id="e2"><![CDATA[Young children play violent games and assume this behavior is normal,]]></edu>
   <edu id="e3"><![CDATA[and carry it out into the real world.]]></edu>

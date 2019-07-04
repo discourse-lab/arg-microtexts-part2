@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c124">
+<arggraph id="micro_c124" topic_id="responsible_handling_of_nuclear_waste" stance="con">
   <edu id="e1"><![CDATA[There is no way to handle nuclear waste responsibly.]]></edu>
   <edu id="e2"><![CDATA[It is toxic]]></edu>
   <edu id="e3"><![CDATA[and no matter what care is taken, there is a risk.]]></edu>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c193">
+<arggraph id="micro_c193" topic_id="treat_dogs_as_humans" stance="pro">
   <edu id="e1"><![CDATA[It is OK to treat dogs on par with family members]]></edu>
   <edu id="e2"><![CDATA[because they're a part of the family.]]></edu>
   <edu id="e3"><![CDATA[We look after them as we do our own family.]]></edu>

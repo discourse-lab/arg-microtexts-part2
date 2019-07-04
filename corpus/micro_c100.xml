@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c100">
+<arggraph id="micro_c100" topic_id="books_obsolete" stance="con">
   <edu id="e1"><![CDATA[Although there has been a rapid increase in digital publishing,]]></edu>
   <edu id="e2"><![CDATA[it is unlikely that paper books will become obsolete in the future.]]></edu>
   <edu id="e3"><![CDATA[Tactility is a large part of the reading experience]]></edu>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c198">
+<arggraph id="micro_c198" topic_id="treat_dogs_as_humans" stance="pro">
   <edu id="e1"><![CDATA["For centuries, dogs have been known as ""man's best friend.""]]></edu>
   <edu id="e2"><![CDATA[So why should we treat them as less than our equals?]]></edu>
   <edu id="e3"><![CDATA[They are always there for us, helping us when we need it.]]></edu>

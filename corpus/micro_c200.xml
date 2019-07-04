@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c200">
+<arggraph id="micro_c200" topic_id="large_families_better_for_children" stance="con">
   <edu id="e1"><![CDATA[Large families are not better for the children.]]></edu>
   <edu id="e2"><![CDATA[Statistics show there is a larger ratio of teen pregnancies, school dropouts, and criminal convictions in families with more than 3 children.]]></edu>
   <edu id="e3"><![CDATA[The main problem is the loss of parental focus and guidance for each child.]]></edu>

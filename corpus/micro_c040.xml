@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c040">
+<arggraph id="micro_c040" topic_id="romantic_movies_endanger_relationships" stance="pro">
   <edu id="e1"><![CDATA[I think that, to some extent, romantic movies can leave an impression on viewers about what they think their real life relationships should be.]]></edu>
   <edu id="e2"><![CDATA[Most people can tell the difference between reality and movies,]]></edu>
   <edu id="e3"><![CDATA[but seeing perfect fictional relationships can give people false expectations.]]></edu>

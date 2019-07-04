@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c101">
+<arggraph id="micro_c101" topic_id="books_obsolete" stance="con">
   <edu id="e1"><![CDATA[Paper books are a joy to read. Electronic books can never replace this feeling.]]></edu>
   <edu id="e2"><![CDATA[Many voracious readers love to hold books]]></edu>
   <edu id="e3"><![CDATA[and smell the ink and paper.]]></edu>

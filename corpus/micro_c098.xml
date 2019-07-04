@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c098">
+<arggraph id="micro_c098" topic_id="books_obsolete" stance="con">
   <edu id="e1"><![CDATA[Some believe that with the coming of computers and digital books paper and traditionally printed books will soon become obsolete.]]></edu>
   <edu id="e2"><![CDATA[This is very unlikely to happen]]></edu>
   <edu id="e3"><![CDATA[as physical media offers many benefits not shared by it's digital counterpart.]]></edu>

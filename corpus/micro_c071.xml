@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<arggraph id="micro_c071">
+<arggraph id="micro_c071" topic_id="charge_for_plastic_bags" stance="con">
   <edu id="e1"><![CDATA[Supermarkets should not charge for plastic bags.]]></edu>
   <edu id="e2"><![CDATA[Plastic bags are cheap to make.]]></edu>
   <edu id="e3"><![CDATA[Many people reuse the plastic bags after they return from the store.]]></edu>
