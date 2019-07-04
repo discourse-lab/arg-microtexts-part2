@@ -4,6 +4,8 @@ An annotated corpus of argumentative microtexts - part 2
 The second part of the arg-microtexts corpus contains 171 additional short
 argumentative texts in English, annotated with argumentation structure.
 
+For a list of the topics and trigger questions, see [topics_triggers.md].
+
 One of the features new in this part of the corpus are implicit main claims
 (see Section 4.1 of our paper). Note that discourse units that have been
 introduced to represent implicit claims are marked in the xml-files with the
