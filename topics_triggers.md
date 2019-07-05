@@ -3,13 +3,13 @@
 
 ## Background
 
-All texts have been collected in a controlled text generation experiment from
-authors recruited via Amazon Mechanical Turk, arguing for or against a general
-debate topic from a set of in total 36 prompts. For more details, see
-Section 3 of the [paper](http://www.aclweb.org/anthology/W/W18/W18-5218.pdf).
+The texts with ids c001-c205 have been collected in a  crowdsourcing
+experiment. Below is a list of the topics and the corresponding trigger
+question in the experiment.
 
-Below is a list of the topics and the corresponding trigger question in the
-experiment.
+Note that the subjects in the experiment chose from the English trigger
+questions and wrote English text. For more information about the experiment,
+see the [paper](http://www.aclweb.org/anthology/W/W18/W18-5218.pdf).
 
 
 ## Data format
@@ -18,148 +18,182 @@ The xml representation of the arguments includes a reference to the topic id
 and the authors stance towards the topic, for example:
 
 ```xml
-<arggraph id="micro_c035" topic_id="fracking" stance="pro">
+<arggraph id="micro_c001" topic_id="hunting_improve_environment" stance="pro">
 ```
 
 
 ## List of the topics
 
-* `books_obsolete`
+* `hunting_improve_environment`
 
-  en: TBA
+  Is hunting good or bad for the environment?
 
-* `cell_phones_and_social_media_improve_families`
-
-  en: TBA
-
-* `charge_for_plastic_bags`
-
-  en: TBA
-
-* `composting_helps_environment`
-
-  en: TBA
-
-* `dating_before_engagement`
-
-  en: TBA
-
-* `eco-tourism_protects_nature`
-
-  en: TBA
-
-* `fracking`
-
-  en: TBA
-
-* `government_regulation_increases_solar_energy`
-
-  en: TBA
-
-* `helicopter_parents`
-
-  en: TBA
-
-* `hunting_improves_environment`
-
-  en: TBA
-
-* `influence_of_recycling`
-
-  en: TBA
-
-* `kids_recovery_from_divorce`
-
-  en: TBA
-
-* `large_families_better_for_children`
-
-  en: TBA
-
-* `LED_lights_reduce_energy`
-
-  en: TBA
-
-* `life_in_dirty_city_if_good_job`
-
-  en: TBA
-
-* `long_distance_relationships`
-
-  en: TBA
-
-* `nuclear_energy_safe`
-
-  en: TBA
 
 * `older_people_better_parents`
 
-  en: TBA
+  Do older people make better parents?
 
-* `only_child`
-
-  en: TBA
-
-* `prohibition_of_phones_while_driving`
-
-  en: TBA
-
-* `promote_recycling_by_bottle_deposit`
-
-  en: TBA
 
 * `removal_of_rhino_horns`
 
-  en: TBA
+  Should the horns of wild rhinos be removed to prevent them from being poached?
 
-* `responsible_handling_of_nuclear_waste`
 
-  en: TBA
+* `cell_phones_and_social_media_improve_families`
+
+  Have cell phones and social media made families closer?
+
+
+* `eco-tourism_protects_nature`
+
+  Can eco-tourism protect wild areas and animals?
+
+
+* `dating_before_engagement`
+
+  How long should people date before they become engaged?
+
+
+* `fracking`
+
+  Do we need fracking, despite its risks?
+
 
 * `romantic_movies_endanger_relationships`
 
-  en: TBA
+  Are the expectations raised by romantic movies damaging to real relationships?
 
-* `smart_watches_replace_cell_phones`
 
-  en: TBA
+* `influence_of_recycling`
+
+  Does recycling really make a difference?
+
+
+* `prohibition_of_phones_while_driving`
+
+  Should car drivers be strictly prohibited from using cell phones?
+
+
+* `promote_recycling_by_bottle_deposit`
+
+  Should all states adopt a deposit on soft drink bottles and cans in order to promote recycling?
+
 
 * `social_media_improves_teenager_lives`
 
-  en: TBA
+  Have social media improved the lives of teenagers?
 
-* `sports_as_family_activity`
 
-  en: TBA
+* `charge_for_plastic_bags`
 
-* `teenage_marriage`
+  Should supermarkets charge for plastic bags in order to encourage the use of reusable bags?
 
-  en: TBA
-
-* `teenage_parenthood`
-
-  en: TBA
-
-* `trash_in_landfills`
-
-  en: TBA
-
-* `treat_dogs_as_humans`
-
-  en: TBA
-
-* `veganism_helps_environment`
-
-  en: TBA
-
-* `video_games_as_teaching_tools`
-
-  en: TBA
-
-* `video_games_bad_for_families`
-
-  en: TBA
 
 * `violent_video_games_cause_violence`
 
-  en: TBA
+  Do violent video games cause people to act out violently?
+
+
+* `veganism_helps_environment`
+
+  Does being a vegetarian or vegan help the environment?
+
+
+* `video_games_as_teaching_tools`
+
+  Should schools use video games as a teaching tool?
+
+
+* `LED_lights_reduce_energy`
+
+  Can using LED lights make a difference for our energy consumption?
+
+
+* `books_obsolete`
+
+  Will paper and books become obsolete?
+
+
+* `composting_helps_environment`
+
+  Can composting help save the environment?
+
+
+* `smart_watches_replace_cell_phones`
+
+  Are smart watches going to replace cell phones?
+
+
+* `life_in_dirty_city_if_good_job`
+
+  de: Sollte wir unseren Müll weiterhin für das Recycling trennen?
+
+
+* `nuclear_energy_safe`
+
+  Is nuclear energy really safe?
+
+
+* `responsible_handling_of_nuclear_waste`
+
+  Is there a chance to handle nuclear waste responsibly?
+
+
+* `trash_in_landfills`
+
+  Are landfills a good way for handling our trash?
+
+
+* `government_regulation_increases_solar_energy`
+
+  Can government regulation speed up the spread of solar energy?
+
+
+* `long_distance_relationships`
+
+  Do long distance relationships work?
+
+
+* `kids_recovery_from_divorce`
+
+  Is divorce something that kids can recover from?
+
+
+* `teenage_marriage`
+
+  Are teenage marriages a good idea?
+
+
+* `teenage_parenthood`
+
+  Should teenagers that get pregnant keep their children?
+
+
+* `helicopter_parents`
+
+  Are helicopter parents good for their children?
+
+
+* `only_child`
+
+  Is it good to be an only child?
+
+
+* `sports_as_family_activity`
+
+  Is doing sports together a good thing for families?
+
+
+* `video_games_bad_for_families`
+
+  Do video games have a bad impact on family life?
+
+
+* `treat_dogs_as_humans`
+
+  Is it OK to treat dogs on a par with family members?
+
+
+* `large_families_better_for_children`
+
+  Are large families better for children?
